@@ -1,0 +1,131 @@
+.sl{
+			
+			width: 55px;
+		}
+		.add{
+			border:1px solid;
+			border-radius: 4px;
+			background: none;
+			width: 25px;
+			height: 16px;
+			
+		
+		}
+		.sub{
+			border:1px solid;
+			border-radius: 4px;
+			background: none;
+			width:25px;
+			height: 16px;
+		}
+		.add:hover{
+			background: lightcyan;
+		}
+		.sub:hover{
+			background: lightcyan;
+		}
+		td{
+			text-align: center;
+		
+		}
+		th{
+			text-align: center;
+		}
+		#mytable{
+			
+			width: 1200px;
+			height: 250px;
+		}
+		.button {
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 13px;
+  padding: 9px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.sr{
+	width: 32px;
+	height: 32px;
+	text-align: center;
+}
+#end{
+	margin-top: 30px;
+	margin-left: 910px;
+	height: 170px;
+	width: 320px;
+}
+.button1 {
+    position: relative;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 9px;
+    width: 110px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button1:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button1:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.del{
+	color: red;
+	background-color: lightgreen;
+	border: none;
+	border-radius: 4px;
+	
+}

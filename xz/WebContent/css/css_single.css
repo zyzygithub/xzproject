@@ -1,0 +1,152 @@
+#btnshoppingcar {
+	border: 1px solid black;
+}
+
+.bq {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: bottom; 
+}
+
+i.bqico{ 
+	width : 30px;
+	height: 30px;
+	background: url('../images/pic/timg.jpg') no-repeat 0px 0px;
+	display: inline-block;
+	vertical-align: bottom;
+
+}
+
+
+
+#messagetablediv{
+	height:620px;
+}
+
+.deletemsga{
+	color:red;
+	display:none;
+}
+#resaleprice {
+	border-bottom: 1px solid gray;
+}
+
+.picdiv {
+	display: block;
+	align-content: center;
+}
+
+#goodspic{
+	width:60%;
+}
+
+.returngmsga {
+	color: cornflowerblue;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#btnmessagearea, #messagetable tbody tr td, #right_a tr td {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#messagetable {
+	width: 90%;
+}
+
+.messagetable_left_a {
+	width: 15%;
+	background: #f7f7f7;
+	border-bottom: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+	border-top: 1px solid lightgray;
+}
+
+.messagetable_right_a {
+	padding-right: 5%;
+	padding-left: 5%;
+	border-right: 1px solid lightgray;
+	border-top: 1px solid lightgray;
+}
+
+#table-bq{
+	float: left;
+	display:none;
+}
+
+.messagetable_right_b {
+	text-align: right;
+	padding-right: 5%;
+	border-right: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	color: gray;
+}
+
+#sendmessagecontent {
+	width: 75%;
+	height: 150px;
+	border:1px solid lightgray;
+	text-align: left;
+}
+
+#pageare {
+	padding-right: 5%;
+}
+
+#btnmessage {
+	width: 15%;
+	border: 1px solid black;
+}
+
+#btncopy, #btngoshopping {
+	background: steelblue;
+	color: white;
+}
+
+#etalage {
+	position: relative;
+	left: 15%;
+}
+
+.input-number {
+	width: 80px;
+	padding: 0 12px;
+	vertical-align: top;
+	text-align: center;
+	outline: none;
+}
+
+.input-number, .input-number-decrement, .input-number-increment {
+	border: 1px solid #cccccc;
+	height: 40px;
+	user-select: none;
+}
+
+.input-number-decrement, .input-number-increment {
+	display: inline-block;
+	width: 30px;
+	line-height: 38px;
+	background: #f1f1f1;
+	color: #444444;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.input-number-decrement:active, .input-number-increment:active {
+	background: #dddddd;
+}
+
+.input-number-decrement {
+	border-right: none;
+	border-radius: 15px 0px 0px 15px;
+}
+
+.input-number-increment {
+	border-left: none;
+	border-radius: 0px 15px 15px 0px;
+}

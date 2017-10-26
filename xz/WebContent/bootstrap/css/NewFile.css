@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.aTitle:hover{
+color: red;
+}
+#manage_tab a{
+	text-decoration: none;
+}
+#manage_tab a:hover{
+	text-decoration: underline;
+	
+}
